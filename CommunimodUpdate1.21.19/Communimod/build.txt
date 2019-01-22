@@ -1,0 +1,3 @@
+author = C0d3W01f
+version = 0.1
+displayName = Communimod
