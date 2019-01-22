@@ -7,12 +7,12 @@ namespace Communimod.Items
 	{
 		public override void SetStaticDefaults()
 		{
-			DisplayName.SetDefault("SwordofthePeople");
-			Tooltip.SetDefault("This is a modded sword.");
+			DisplayName.SetDefault("Sword of the People");
+			Tooltip.SetDefault("This is a weapon forged by the greatest blacksmiths");
 		}
 		public override void SetDefaults()
 		{
-			item.damage = 50;
+			item.damage = 100;
 			item.melee = true;
 			item.width = 40;
 			item.height = 40;
@@ -23,7 +23,7 @@ namespace Communimod.Items
 			item.value = 10000;
 			item.rare = 2;
 			item.UseSound = SoundID.Item1;
-			item.autoReuse = true;
+			item.autoReuse = false;
 		}
 
 		public override void AddRecipes()
